@@ -2,10 +2,15 @@ body{
   width: 100%;
   height: 100vh;
   margin: 0;
+  margin-top: -40px;
   background-color: #0e0e38;
   color: #f5f6f7;
   font-family: Tahoma;
   font-size: 16px;
+}
+#description{
+margin-top: -20px;
+font-size: 16px;
 }
 .background-pic{
   background-image: url("league_pic.jpg");
@@ -75,4 +80,7 @@ textarea{
 .personal-info{
   margin-top: -50px;
   font-size: 20px;
+}
+.roleQ{
+  margin-top: -10px;
 }
