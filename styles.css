@@ -1,4 +1,4 @@
-body{
+body {
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -8,26 +8,32 @@ body{
   font-family: Tahoma;
   font-size: 16px;
 }
-#description{
-margin-top: -20px;
-font-size: 16px;
+
+#description {
+  margin-top: -20px;
+  font-size: 16px;
 }
-.background-pic{
+
+.background-pic {
   background-image: url("league_pic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-label{
+
+label {
   display: block;
   margin: 0.5rem 0;
 }
-h1, p{
+
+h1,
+p {
   margin: 1em auto;
   text-align: center;
 }
-form{
+
+form {
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
@@ -37,6 +43,7 @@ form{
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
+
 input[type="submit"] {
   display: block;
   width: 60%;
@@ -47,40 +54,51 @@ input[type="submit"] {
   border-color: white;
   min-width: 300px;
 }
-input, textarea {
+
+input,
+textarea {
   background-color: #a7a7d6;
   border: 1px solid #0a0a23;
   color: #f5f6f7;
 }
+
 fieldset {
   border: none;
   padding: 2rem 0;
   border-bottom: 3px solid #3b3b4f;
 }
-.info{
+
+.info {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 1em;
 }
+
 ::placeholder {
   color: rgb(4, 1, 20);
-  opacity: .65; /* Firefox */
+  opacity: .65;
+  /* Firefox */
 }
-.small{
+
+.small {
   font-size: 12px;
   color: grey;
 }
-textarea{
+
+textarea {
   margin-top: 5px;
   margin-bottom: -30px;
 }
-.complaints{
+
+.complaints {
   margin-top: 15px;
 }
-.personal-info{
+
+.personal-info {
   margin-top: -50px;
   font-size: 20px;
 }
-.roleQ{
+
+.roleQ {
   margin-top: -10px;
 }
